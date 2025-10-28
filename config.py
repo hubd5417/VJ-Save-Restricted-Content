@@ -17,23 +17,23 @@ else:
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 # Your API ID from my.telegram.org
-API_ID = int(os.environ.get("API_ID", ""))
+API_ID = int(os.environ.get("API_ID", "24523641"))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "cef2dfeccecec1a5d59b30732fa4c49d")
 
 # Your Owner / Admin Id For Broadcast 
-ADMINS = int(os.environ.get("ADMINS", "6073523936"))
+ADMINS = int(os.environ.get("ADMINS", "7212913759"))
 
 # Your Channel Id In Which Bot Upload Downloaded Video/File/Message etc.
 # And Make Your Bot Admin In this channel with full rights.
 # if you don't want to upload in channel then leave it blank don't fill anything.
-CHANNEL_ID = os.environ.get("CHANNEL_ID", "")
+CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1003006621307")
 
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_URI = os.environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_NAME = os.environ.get("DB_NAME", "vjsavecontentbot")
+DB_NAME = os.environ.get("DB_NAME", "mongodb+srv://joghimton203_db_user:5lb0Qrt6QRB6P8S6@cluster0.1yjvid7.mongodb.net/?appName=Cluster0")
 
 # Increase time as much as possible to avoid floodwait, spamming and tg account ban issues.
 WAITING_TIME = int(os.environ.get("WAITING_TIME", "10")) # time in seconds
