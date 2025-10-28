@@ -33,7 +33,7 @@ CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1003006621307")
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_URI = os.environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_NAME = os.environ.get("DB_NAME", "mongodb+srv://joghimton203_db_user:5lb0Qrt6QRB6P8S6@cluster0.1yjvid7.mongodb.net/?appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "mongodb+srv://joghimton203_db_user:3a9aM3I9q0ND0dQB@cluster0.1yjvid7.mongodb.net/?appName=Cluster0")
 
 # Increase time as much as possible to avoid floodwait, spamming and tg account ban issues.
 WAITING_TIME = int(os.environ.get("WAITING_TIME", "10")) # time in seconds
